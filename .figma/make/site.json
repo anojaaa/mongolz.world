@@ -1,0 +1,18 @@
+{
+  "title": "The MongolZ Landing Page",
+  "description": "Organizes and displays social media links, shop access, and partner promo codes for an esports organization in a clear, user-friendly landing page.",
+  "language": "en",
+  "customScripts": {
+    "headStart": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#090a0c\">"
+  },
+  "icons": {
+    "icon": "/favicon.png"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
