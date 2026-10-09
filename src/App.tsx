@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 // Swap this file to feature a different animated identity for campaigns or special events.
-const heroVideoSrc = "downloads/mongolz-hero.mp4";
+const heroVideoSrc = "public/downloads/mongolz-hero.mp4";
 
 type SocialLink = {
   name: string;
@@ -285,7 +285,7 @@ function Logo({ onClick }: { onClick?: () => void }) {
       className="group flex items-center gap-3"
       aria-label="The MongolZ home"
     >
-      <img className="nav-logo-image"  src="downloads/mongolz-nav.png" alt="" />
+      <img className="nav-logo-image"  src="public/downloads/mongolz-nav.png" alt="" />
     </a>
   );
 }
