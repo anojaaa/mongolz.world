@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 // Swap this file to feature a different animated identity for campaigns or special events.
-const heroVideoSrc = `${import.meta.env.BASE_URL}downloads/mongolz-hero.mp4`;
+const heroVideoSrc = `downloads/mongolz-hero.mp4`;
 
 type SocialLink = {
   name: string;
