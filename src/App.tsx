@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const heroVideoSrc = `${import.meta.env.BASE_URL}downloads/mongolz-hero.mp4`;
+const heroVideoSrc = `${import.meta.env.BASE_URL}public/downloads/mongolz-hero.mp4`;
 
 type SocialLink = {
   name: string;
@@ -284,7 +284,7 @@ function Logo({ onClick }: { onClick?: () => void }) {
       className="group flex items-center gap-3"
       aria-label="The MongolZ home"
     >
-      <img className="nav-logo-image" src={`${import.meta.env.BASE_URL}downloads/mongolz-nav.png`} alt="" />
+      <img className="nav-logo-image" src={`${import.meta.env.BASE_URL}public/downloads/mongolz-nav.png`} alt="" />
     </a>
   );
 }
@@ -512,7 +512,7 @@ function InteractiveVinyl() {
         onPointerCancel={stopScratch}
         onKeyDown={spinWithKeyboard}
       >
-        <img className="vinyl-logo" src={`${import.meta.env.BASE_URL}downloads/horde-logo.png`} alt="" draggable={false} />
+        <img className="vinyl-logo" src={`${import.meta.env.BASE_URL}public/downloads/horde-logo.png`} alt="" draggable={false} />
       </div>
       <span className="vinyl-hint">DRAG TO SCRATCH</span>
     </div>
@@ -932,7 +932,7 @@ export default function App() {
             </div>
             <div className="horde-links">
               <a
-                href={`${import.meta.env.BASE_URL}downloads/mongolz-horde-kit.zip`}
+                href={`${import.meta.env.BASE_URL}public/downloads/mongolz-horde-kit.zip`}
                 download="mongolz-horde-kit.zip"
                 aria-label="Download the Horde Kit (desktop and phone wallpapers)"
               >
