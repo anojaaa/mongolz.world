@@ -10,7 +10,6 @@ import siteConfiguration from './.figma/make/site.json'
 export default defineConfig({
   base: 'https://anojaaa.github.io/mongolz.world/',
   plugins: [react()],
-})
   const emitSourcemaps = mode === 'development'
 
   return {
