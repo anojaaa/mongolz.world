@@ -932,7 +932,7 @@ export default function App() {
             </div>
             <div className="horde-links">
               <a
-                href={`${import.meta.env.BASE_URL}mongolz-horde-kit.zip`}
+                href={`${import.meta.env.BASE_URL}downloads/mongolz-horde-kit.zip`}
                 download="mongolz-horde-kit.zip"
                 aria-label="Download the Horde Kit (desktop and phone wallpapers)"
               >
